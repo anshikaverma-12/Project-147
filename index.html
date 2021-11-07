@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interior Room Design</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <h1>My Last Project - Interior Room Design</h1>
+    <a-scene>
+      <a-sky
+        src="https://tse1.mm.bing.net/th?id=OIP.Qa27-bmpmH0114jfi1NRjAHaEK&pid=Api&P=0&w=270&h=152"
+      ></a-sky>
+
+      <a-plane
+        id="ground"
+        src="https://tse3.mm.bing.net/th?id=OIP.b3AmOYi9qmhXc15a2UmN-gHaFj&pid=Api&P=0&w=219&h=165"
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="20"
+        height="10"
+      ></a-plane>
+
+      <a-plane
+        id="carpet"
+        src="https://images.freecreatives.com/wp-content/uploads/2016/02/Seamless-Green-Carpet-Grass-Like-Texture.jpg"
+        position="0 0.1 0.5"
+        rotation="-90 0 0"
+        width="8"
+        height="5"
+      ></a-plane>
+
+      <a-box
+        id="wall"
+        src="https://media.istockphoto.com/photos/light-orange-color-wall-texture-picture-id175409968?k=6&m=175409968&s=170667a&w=0&h=e28XyxSsSIKSN0zRbEKFZrBPOq614hmEP0I5JAlMLFk="
+        position="0 6.5 -4.5"
+        width="20"
+        height="13"
+      >
+      </a-box>
+
+      <a-plane
+        id="wall-poster-left"
+        src="https://tse4.mm.bing.net/th?id=OIP.-30qw7GjPDDa-z16sL0V3gHaEo&pid=Api&P=0&w=244&h=153"
+        position="-5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <a-plane
+        id="wall-poster-middle"
+        src="https://tse4.mm.bing.net/th?id=OIP.ZfAhA9Zy7FjRiT4U8LMLhQHaE8&pid=Api&P=0&w=249&h=167"
+        position="0 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <a-plane
+        id="wall-poster-right"
+        src="https://res.cloudinary.com/teepublic/image/private/s--kFv4f8cB--/c_crop,x_10,y_10/c_fit,h_1109/c_crop,g_north_west,h_1260,w_1260,x_-124,y_-76/co_rgb:ef4a81,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1260,w_1260/fl_layer_apply,g_north_west,x_-124,y_-76/bo_126px_solid_white/e_overlay,fl_layer_apply,h_1260,l_Misc:Art%20Print%20Bumpmap,w_1260/e_shadow,x_6,y_6/c_limit,h_1134,w_1134/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1555919064/production/designs/4690801_0.jpg"
+        position="5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <!-- Chair 1  -->
+      <a-cylinder
+        src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+        radius="1.2"
+        position="6.5 -0.4 0"
+      >
+        <a-cylinder
+          src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+          radius="0.2"
+          position="0 1 0"
+          height="1.2"
+        >
+        </a-cylinder>
+        <a-cylinder
+          src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+          position="0 1.9 0"
+          rotation="0 0 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+        <a-cylinder
+          src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+          position="0.85 3 0"
+          rotation="90 -90 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+      </a-cylinder>
+
+      <!-- Chair 2  -->
+
+      <a-cylinder
+        src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+        radius="1.2"
+        position="-6.5 -0.4 0"
+      >
+        <a-cylinder
+          src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+          radius="0.2"
+          position="0 1 0"
+          height="1.2"
+        >
+        </a-cylinder>
+        <a-cylinder
+          src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+          position="0 1.9 0"
+          rotation="0 0 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+        <a-cylinder
+          src="https://ceoimage.com/wp-content/uploads/2015/09/2048x2048-white-solid-color-background.jpg"
+          position="-0.85 3 0"
+          rotation="90 -90 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+      </a-cylinder>
+
+      <!-- Dining Table -->
+      <a-box
+        color= "#EDC2D8FF"
+        width="9"
+        height="3.5"
+        position="0 2 0"
+        rotation="90 0 0"
+        depth="0.2"
+      >
+        <a-cylinder
+          src="https://tse1.mm.bing.net/th?id=OIP.eo78LPajilOP5SEmyi4LRAHaFj&pid=Api&P=0&w=234&h=177"
+          height="2"
+          radius="0.8"
+          rotation="90 0 0"
+          position="0 0 1"
+        ></a-cylinder>
+      </a-box>
+
+      <!-- Lamp -->
+
+      <a-cone
+        color="white"
+        position="0 7.5 0"
+        radius-top="0.5"
+        radius-bottom="2"
+      >
+        <a-sphere color="#fff176" position="0 -0.5 0"></a-sphere>
+        <a-cylinder
+          color="white"
+          radius="0.15"
+          height="4"
+          position="0 2 0"
+        ></a-cylinder>
+      </a-cone>
+
+      <!--  --------- CAMERA --------- -->
+
+      <a-camera look-controls-enabled wasd-controls-enabled position="0 5 15">
+      </a-camera>
+    </a-scene>
+    <!-- Closing scene -->
+  </body>
+</html>
